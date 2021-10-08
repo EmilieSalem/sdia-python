@@ -7,7 +7,7 @@ Welcome to sdi-python's documentation!
 ======================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
    lab1/index

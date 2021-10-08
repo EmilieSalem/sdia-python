@@ -1,6 +1,6 @@
 import numpy as np
 
-from lab2.utils import get_random_number_generator
+from sdia_python.lab2.utils import get_random_number_generator
 
 
 class BoxWindow:
@@ -111,8 +111,14 @@ class BoxWindow:
 
 
 class UnitBoxWindow(BoxWindow):
+    """Represents a box in any dimension, where all segments defining the box are of length 1, centered on  ``center`` .
+
+    Args:
+        BoxWindow (BoxWindow): the BoxWindow class
+    """
+
     def __init__(self, center, dimension):
-        """Represents a box in any dimension, where all segments defining the box are of length 1, centered on  ``center`` .
+        """
 
         Args:
             dimension (int): [description] Dimension of the box
